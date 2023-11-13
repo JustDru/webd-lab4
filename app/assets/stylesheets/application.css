@@ -1,0 +1,297 @@
+.body
+{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,112,247,1) 50%, rgba(162,157,255,1) 100%); 
+    color: black;
+    font-family: "Times New Roman", "Comic Sans MS", sans-serif;
+    font-size: 100%;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.center-table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.normal
+{
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+p.thick
+{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+p.thicker
+{
+    font-weight: 900;
+}
+
+h1.normal
+{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+h2.normal
+{
+    font-weight: bold;
+}
+
+h3.normal
+{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+caption.normal
+{
+    font-size: 20px;
+}
+
+ul.normal
+{
+    list-style-type: armenian;
+}
+
+ol.normal
+{
+    list-style-type: disc;
+}
+
+br
+{
+    margin-bottom: 1em !important;
+}
+
+hr
+{
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+}
+
+a:visited
+{
+    color:purple
+}
+
+a:hover
+{
+    color:pink
+}
+
+a:active
+{
+    text-decoration: none;
+}
+
+img:hover
+{
+    border: 1px solid black;
+    background-color: pink;
+}
+
+/* Tables */
+
+.table-main
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+.logo
+{
+    width: 20%;
+    text-align: center;
+}
+
+.logo-web
+{
+    width: 80%;
+    text-align: center;
+}
+
+th
+{
+    text-align: left;
+    border: 2px solid black;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+th, td
+{
+    padding: 10px;
+}
+
+td
+{
+    vertical-align: top;
+}
+
+br
+{
+    margin-bottom:0.9em !important;
+}
+
+.table-main-center
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.1em;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.right
+
+{
+    text-align: right;
+}
+
+/*
+The layout for the rest of this css is a modified version from:
+http://www.maxdesign.com.au/articles/process/
+
+Students are encouraged to read this article.  Great explanation of some sound design concepts with attractive examples provided.
+
+You can cut and paste this at the bottom of your existing css file, and when used in conjunction with the css_layout.html file you unzipped, can wrap your pages into this site.
+*/
+
+
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,112,247,1) 50%, rgba(162,157,255,1) 100%); 
+}
+
+#header
+{
+	background: thistle;
+	padding: 20px;
+}
+
+#header h1
+ { 
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: lightblue;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+	background-color: #ccc; 
+	color: #000;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 240px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+}
+
+#navigation h3 { margin: 0; }
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: #fff;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+	
+}
+
+#content
+{
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}
+
+
+
+.task 
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f7f7f7;
+}
+
